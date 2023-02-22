@@ -1,5 +1,10 @@
+import HomeMain from "./components/HomeMain";
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <HomeMain />
+    </div>
+  );
 }
 
 export default App;
