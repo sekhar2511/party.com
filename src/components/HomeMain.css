@@ -1,0 +1,6 @@
+.flex-home {
+  display: flex;
+}
+.flex-home > div {
+  margin: auto;
+}
