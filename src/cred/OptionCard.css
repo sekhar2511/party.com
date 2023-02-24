@@ -3,25 +3,33 @@
   width: 180px;
   border-radius: 10px;
   background-color: violet;
-  display: flex;
 }
+
+.option-image {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .option-name {
   height: 80px;
   width: 160px;
   background-color: white;
   border-radius: 8px 8px 0px 0px;
-  margin: auto;
-  position: relative;
-  top: auto;
-  margin-left: 6%;
+
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.option-name .heading {
-  height: 15px;
+.option-heading {
+  margin-left: 5%;
+  margin-top: auto;
 }
 
 .view-button {
   width: 150px;
-  position: relative;
-  margin: auto;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
 }
