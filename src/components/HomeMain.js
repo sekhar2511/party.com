@@ -1,10 +1,8 @@
 import Card from "../cred/OptionCard";
-import Buttonc from "../cred/Button";
 import "./HomeMain.css";
 function HomeMain() {
   return (
     <div>
-      <Buttonc />
       <div className="flex-home">
         <div>
           <Card name="birthday" />
