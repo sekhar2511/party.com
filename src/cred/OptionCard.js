@@ -1,27 +1,8 @@
-import React from "react";
-import {
-  ElevatedCard,
-  Column,
-  Row,
-  Typography,
-  HorizontalSpacer,
-  Tag,
-  Button,
-} from "@cred/neopop-web/lib/components";
-import {
-  mainColors,
-  colorPalette,
-  colorGuide,
-  fontNameSpaces,
-  getButtonConfig,
-} from "@cred/neopop-web/lib/primitives";
-import styled from "styled-components";
-
-const ContentWrapper = styled.div`
-  padding: 20px;
-`;
-
-const Card = (props) => {
+import "./OptionCard.css";
+import { Button, Typography, Column } from "@cred/neopop-web/lib/components";
+import { FontVariant } from "@cred/neopop-web/lib/primitives";
+import image1 from "../images/party.png";
+function Card(props) {
   return (
     <ElevatedCard
       backgroundColor="#AE275F"
@@ -72,7 +53,7 @@ const Card = (props) => {
             </Row>
           </Row>
           <HorizontalSpacer n={8} />
-          {/* <div style={{ maxWidth: "50%" }}>
+          <div style={{ maxWidth: "50%" }}>
             <Tag
               colorConfig={{
                 background: mainColors.yellow,
@@ -81,19 +62,22 @@ const Card = (props) => {
             >
               Due Today
             </Tag>
-          </div> */}
+          </div>
           <HorizontalSpacer n={2} />
           <Typography {...fontNameSpaces.th16b} color={mainColors.white}>
-            ₹100% mangana Russian
+            ₹100% mangana
+          </Typography>
+          <Typography {...fontNameSpaces.th16b} color={mainColors.white}>
+            ₹100
           </Typography>
           <HorizontalSpacer n={4} />
           <Button {...getButtonConfig("blp50p1")} fullWidth={true}>
-            please visit Russians beauty
+            please visit
           </Button>
-        </Column>
-      </ContentWrapper>
-    </ElevatedCard>
+        </div>
+      </div>
+    </div>
   );
-};
+}
 
 export default Card;
