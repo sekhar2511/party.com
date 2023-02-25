@@ -72,7 +72,7 @@ const Card = (props) => {
             </Row>
           </Row>
           <HorizontalSpacer n={8} />
-          <div style={{ maxWidth: "50%" }}>
+          {/* <div style={{ maxWidth: "50%" }}>
             <Tag
               colorConfig={{
                 background: mainColors.yellow,
@@ -81,17 +81,14 @@ const Card = (props) => {
             >
               Due Today
             </Tag>
-          </div>
+          </div> */}
           <HorizontalSpacer n={2} />
           <Typography {...fontNameSpaces.th16b} color={mainColors.white}>
-            ₹100% mangana
-          </Typography>
-          <Typography {...fontNameSpaces.th16b} color={mainColors.white}>
-            ₹100
+            ₹100% mangana Russian
           </Typography>
           <HorizontalSpacer n={4} />
           <Button {...getButtonConfig("blp50p1")} fullWidth={true}>
-            please visit
+            please visit Russians beauty
           </Button>
         </Column>
       </ContentWrapper>
