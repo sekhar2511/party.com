@@ -13,9 +13,7 @@ function HomeMain() {
         <div>
           <Card name="birthday" />
         </div>
-        <div>
-          <Card name="concert" />
-        </div>
+
         <div>
           <Card name="credle ceremony" />
         </div>
