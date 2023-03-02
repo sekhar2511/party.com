@@ -1,35 +1,41 @@
 .card-main {
-  height: 230px;
+  height: 260px;
   width: 180px;
   border-radius: 10px;
   background-color: violet;
 }
 
 .option-image {
-  display: table;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
+  display: block;
+  margin-top: 4%;
 }
 
-.option-name {
-  height: 80px;
-  width: 160px;
+.option-card {
+  height: 90px;
+  width: 166px;
   background-color: white;
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 8px;
 
-  display: table;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
+  display: block;
+  position: relative;
+  bottom: -86%;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
 .option-heading {
-  margin-left: 5%;
-  margin-top: auto;
+  text-align: center;
+  font-family: "Tilt Warp", cursive;
 }
 
 .view-button {
-  width: 150px;
-  display: table;
-  margin-right: auto;
-  margin-left: auto;
+  width: 155px;
+  height: 40px;
+  border-radius: 8px;
+  margin: auto;
+  display: block;
+  background-color: rgb(203, 228, 228);
+  position: relative;
+  bottom: -26%;
 }
