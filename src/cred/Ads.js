@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "antd";
 import adsimg1 from "../images/ads-1.jpg";
+import adsimg2 from "../images/weddingpic.jpg";
 
 const contentStyle = {
   height: "160px",
@@ -19,8 +20,11 @@ function Ads() {
           style={{ height: "300px", width: "100%", display: "block" }}
         />
       </div>
-      <div>
-        <h3 style={contentStyle}>2</h3>
+      <div className="img1">
+        <img
+          src={adsimg2}
+          style={{ height: "300px", width: "100%", display: "block" }}
+        />
       </div>
       <div>
         <h3 style={contentStyle}>3</h3>
