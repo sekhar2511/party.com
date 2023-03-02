@@ -11,9 +11,6 @@ function HomeMain() {
       </div>
       <div className="flex-home">
         <div>
-          <Card name="birthday" />
-        </div>
-        <div>
           <Card name="concert" />
         </div>
         <div>
