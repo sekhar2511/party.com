@@ -1,11 +1,12 @@
 import Card from "../cred/OptionCard";
 import "./HomeMain.css";
 import Ads from "../cred/Ads";
-import { Column } from "@cred/neopop-web/lib/components";
+import { Column, HorizontalSpacer } from "@cred/neopop-web/lib/components";
 
 function HomeMain() {
   return (
     <div>
+      <HorizontalSpacer n={1} />
       <div className="ads-card">
         <Ads />
       </div>
@@ -13,7 +14,9 @@ function HomeMain() {
         <div>
           <Card name="birthday" />
         </div>
-
+        <div>
+          <Card name="holi party" />
+        </div>
         <div>
           <Card name="credle ceremony" />
         </div>
